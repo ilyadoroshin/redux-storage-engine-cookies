@@ -1,0 +1,46 @@
+{
+  "name": "redux-storage-engine-cookies",
+  "version": "1.0.0",
+  "description": "cookie engine for redux-storage",
+  "main": "build/index.js",
+  "jsnext:main": "src/index.js",
+  "scripts": {
+    "prepublish": "make build",
+    "test": "make lint test build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bmatcuk/redux-storage-engine-cookies.git"
+  },
+  "homepage": "https://github.com/bmatcuk/redux-storage-engine-cookies",
+  "keywords": [
+    "redux",
+    "redux-storage",
+    "redux-storage-engine",
+    "cookies"
+  ],
+  "author": "Bob Matcuk <bmatcuk@gmail.com>",
+  "files": [
+    "build/",
+    "src",
+    "!**/__tests__/**"
+  ],
+  "eslintConfig": {
+    "extends": "michaelcontento"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.4.0",
+    "babel-core": "^6.4.0",
+    "babel-polyfill": "^6.3.14",
+    "babel-preset-michaelcontento": "^1.3.0",
+    "eslint": "^1.10.3",
+    "eslint-config-michaelcontento": "^1.1.1",
+    "eslint-plugin-mocha-only": "0.0.3",
+    "mocca": "^0.3.0",
+    "release-it": "^2.3.1"
+  },
+  "dependencies": {
+    "js-cookie": "^2.1.2"
+  }
+}
